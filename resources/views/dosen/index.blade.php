@@ -11,9 +11,14 @@
             </h2>
             <p class="text-muted mb-0">Kelola data dosen dan informasi akademik</p>
         </div>
-        <a href="/dosen/create" class="btn btn-primary btn-lg shadow-sm">
-            <i class="fas fa-plus me-2"></i>Tambah Dosen
-        </a>
+        <div>
+            <a href="/dosen/create" class="btn btn-primary btn-lg shadow-sm">
+                <i class="fas fa-plus me-2"></i>Tambah Dosen
+            </a>
+            <a href="/mahasiswa/export-pdf" class="btn btn-primary btn-lg btn-danger">
+                <i class="fas fa-file-pdf"></i> Export PDF
+            </a>
+        </div>
     </div>
 
     <!-- Modern Table Card -->

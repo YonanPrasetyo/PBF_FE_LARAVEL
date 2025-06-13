@@ -33,3 +33,7 @@ Route::post('/dosen/store',[DosenController::class, 'store']);
 Route::get('/dosen/edit/{nidn}',[DosenController::class, 'edit']);
 Route::put('/dosen/update',[DosenController::class, 'update']);
 Route::delete('/dosen/delete/{nidn}',[DosenController::class, 'destroy']);
+
+// Export PDF routes
+Route::get('/mahasiswa/export-pdf', [DosenController::class, 'exportPdf']);
+Route::get('/mahasiswa/preview-pdf', [DosenController::class, 'previewPdf']);
