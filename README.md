@@ -6,7 +6,7 @@ Panduan lengkap untuk setup Laravel sebagai frontend yang mengkonsumsi API backe
 
 ### 1. Install Laravel
 ```bash
-laravel new example-app
+composer create-project "laravel/laravel:^10.0" example-app
 ```
 > Ini akan membuat folder dengan nama `example-app` (atau nama yang Anda tentukan)
 
